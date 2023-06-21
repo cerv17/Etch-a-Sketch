@@ -2,22 +2,36 @@
 .container{
     display: flex;
     flex:1;
-    height: 100%;
+    flex-direction: column;
 }
 .container div {
     flex: 1;
     background: white;
-    border: 1px solid black;
 }
 body{
     display: flex;
     flex-direction: column;
+    background-color: red;
+}
+#view{
+    justify-self: center;
+    background: white;
+    flex: 1;
+    display: flex;
+    aspect-ratio: 1/1;
+}
+#loe{
+    display: flex;
+    flex: 1;
+    justify-self:center;
+    align-self: stretch;
+    padding: 10%;
+}
+#bottom{
+    flex: 0.2;
+    display: flex;
     justify-content: center;
 }
-body, html{
-    height: 100%;
-    width: 100%;
-}
-.square{
-    background-color: white;
+#reset{
+    align-self: center;
 }
