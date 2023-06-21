@@ -1,0 +1,23 @@
+
+.container{
+    display: flex;
+    flex:1;
+    height: 100%;
+}
+.container div {
+    flex: 1;
+    background: white;
+    border: 1px solid black;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+body, html{
+    height: 100%;
+    width: 100%;
+}
+.square{
+    background-color: white;
+}
